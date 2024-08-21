@@ -75,7 +75,7 @@ def main():
     df_final = pd.DataFrame([data.values()],columns=kolom)
     
     # load model
-    my_model = pickle.load(open('model_regresi_terbaik.pkl', 'rb'))
+    my_model = pickle.load(open('model_oke.pkl', 'rb'))
     
     # Predict
     result = round(float(final_prediction(df_final, my_model)),2)
