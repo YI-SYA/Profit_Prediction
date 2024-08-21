@@ -22,26 +22,40 @@ def final_prediction(values, model):
 def main():
     
     # Nilai awal
-    rd = 150000.2
-    adm = 140000.3
-    mkt = 300000.1
+    Cement = 540
+    Blast_slag = 142
+    Fly_ash = 163
+    Water = 205
+    Superplasticizer = 155
+    Fine_aggregate = 304
+    Age = 14
+    Compressive_strength = 938
+	
     
     with st.container():
         col1, col2, col3 = st.columns(3)
         with col1:
-            rd = st.number_input('R&D', value=rd)
+            Cement = st.number_input('Cement', value=Cement)
         with col2:
-            adm = st.number_input('Administrasi', value=adm)
+            Blast_slag = st.number_input('Blast_slag', value=Blast_slag)
         with col3:
-           mkt = st.number_input('Marketing', value=mkt)
+           Fly_ash = st.number_input('Fly_ash', value=Fly_ash)
     with st.container():
         col1, col2, col3 = st.columns(3)
         with col1:
-            rd = st.number_input('R&D', value=rd)
+            Water = st.number_input('Water', value=Water)
         with col2:
-            adm = st.number_input('Administrasi', value=adm)
+            Superplasticizer = st.number_input('Superplasticizer', value=Superplasticizer)
         with col3:
-           mkt = st.number_input('Marketing', value=mkt)
+           Coarse_aggregate = st.number_input('Coarse_aggregate', value=Coarse_aggregate)
+    with st.container():
+        col1, col2, col3 = st.columns(3)
+        with col1:
+            Fine_aggregate = st.number_input('Fine_aggregate', value=Fine_aggregate)
+        with col2:
+            Age = st.number_input('Age', value=Age)
+        with col3:
+           Compressive_strength = st.number_input('Compressive_strength', value=Compressive_strength)
 	
     
     
