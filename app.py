@@ -82,7 +82,7 @@ def main():
     
     st.markdown('---'*10)
     
-    st.write('<center><b><h3>Predicted Profit= ', result,'</b></h3>', unsafe_allow_html=True)
+    st.write('<center><b><h3>Predicted = ', result,'</b></h3>', unsafe_allow_html=True)
            
 if __name__ == '__main__':
 	main() 
