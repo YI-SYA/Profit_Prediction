@@ -34,6 +34,13 @@ def main():
             adm = st.number_input('Administrasi', value=adm)
         with col3:
            mkt = st.number_input('Marketing', value=mkt)
+	col1, col2, col3 = st.columns(3)
+        with col1:
+            rd = st.number_input('R&D', value=rd)
+        with col2:
+            adm = st.number_input('Administrasi', value=adm)
+        with col3:
+           mkt = st.number_input('Marketing', value=mkt)
     
     
     st.markdown('---'*10)
