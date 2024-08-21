@@ -29,7 +29,7 @@ def main():
     Superplasticizer = 155
     Fine_aggregate = 304
     Age = 14
-    Compressive_strength = 938
+    Coarse_aggregate = 938
 	
     
     with st.container():
