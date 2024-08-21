@@ -39,7 +39,7 @@ def main():
         with col2:
             Blast_slag = st.number_input('Blast_slag', value=Blast_slag)
         with col3:
-           Fly_ash = st.number_input('Fly_ash', value=Fly_ash)
+            Fly_ash = st.number_input('Fly_ash', value=Fly_ash)
     with st.container():
         col1, col2, col3 = st.columns(3)
         with col1:
@@ -47,17 +47,14 @@ def main():
         with col2:
             Superplasticizer = st.number_input('Superplasticizer', value=Superplasticizer)
         with col3:
-           Coarse_aggregate = st.number_input('Coarse_aggregate', value=Coarse_aggregate)
+            Coarse_aggregate = st.number_input('Coarse_aggregate', value=Coarse_aggregate)
     with st.container():
         col1, col2, col3 = st.columns(3)
         with col1:
             Fine_aggregate = st.number_input('Fine_aggregate', value=Fine_aggregate)
         with col2:
             Age = st.number_input('Age', value=Age)
-        with col3:
-           Compressive_strength = st.number_input('Compressive_strength', value=Compressive_strength)
-	
-    
+
     
     st.markdown('---'*10)
     
