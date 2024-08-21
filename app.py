@@ -57,14 +57,17 @@ def main():
 
     
     st.markdown('---'*10)
-    
-    wly = st.selectbox('Lokasi', ('New York', 'California', 'Florida'))
+
     
     data = {
-        'R&D': rd,
-        'Administrasi': adm,
-        'Marketing': mkt,
-        'Wilayah': wly,
+        'Cement': Cement,
+        'Blast_slag': Blast_slag,
+        'Fly_ash': Fly_ash,
+        'Water': Water,
+	'Superplasticizer' : Superplasticizer,
+	'Coarse_aggregate' : Coarse_aggregate,
+	'Fine_aggregate' : Fine_aggregate,
+	'Age' : Age,
         }
     
     kolom = list(data.keys())
